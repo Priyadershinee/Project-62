@@ -1,0 +1,87 @@
+#welcome {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+body {
+    text-align: center;
+}
+
+
+h1 {
+
+    font-size: 40px;
+    font-family:cursive;
+    font-weight: 300;
+    text-decoration-color: darkviolet;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: cursive;
+    text-decoration-color: darkviolet;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    top: 10px;
+    font-weight: 200;
+    z-index: 10;
+    color: white;
+    position: fixed;
+    background-color: black;
+    text-align: center;
+
+}
+
+.link {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 100px
+}
+
+.link:hover {
+    color: #212121;
+    text-decoration: underline
+}
+.container
+{
+    text-align: center;
+}
+
+#myCarousel{
+    background-color: cornflowerblue;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+#gridgallery img{
+height: 400;
+width: 398;}
